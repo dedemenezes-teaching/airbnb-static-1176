@@ -1,24 +1,13 @@
-# README
+### Testing
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# unit test
 
-Things you may want to cover:
+# system test
 
-* Ruby version
 
-* System dependencies
+## ADD A PAGE IN RAILS
+1. Route -> verb + path
+2. Controller -> handling the route
+3. View
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+request && response (HTML)
