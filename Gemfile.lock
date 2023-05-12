@@ -167,7 +167,7 @@ GEM
       io-console (~> 0.5)
     rexml (3.2.5)
     rubyzip (2.3.2)
-    selenium-webdriver (4.9.1)
+    selenium-webdriver (4.8.6)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
@@ -218,7 +218,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
   redis (~> 4.0)
-  selenium-webdriver
+  selenium-webdriver (~> 4.8.1)
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
