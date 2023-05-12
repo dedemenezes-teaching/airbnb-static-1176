@@ -8,6 +8,12 @@ class FlatsController < ApplicationController
   end
 
   def show
+    #  URL             parameter with defiened key         key value
+    #                  in the route
+    # 'flat/morbazan'  params[:identifier]              'morbazan'
+    # 'flat/25'        params[:identifier]              '25'
+    #
+    # params[:id]
     @flat = @flats.find do |flat|
       flat['id'] == params[:id].to_i
     end
