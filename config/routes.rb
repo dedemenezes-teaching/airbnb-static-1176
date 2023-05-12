@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   # verb '/path', to: 'controller#action'
   # get '/', to: 'flats#index', as: :root
   root "flats#index"
+
+  get '/flats/:id', to: 'flats#show', as: :flat
 end
